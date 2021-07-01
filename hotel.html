@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel_Home</title>
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+        rel="stylesheet">
+    
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="welcome">
+            <img class="welcom__logo" src="images/logo.svg" alt="">
+            <div class="welcom__text">Renaissance hotels</div>
+        </header>
+        <main class="content">
+            <article class="content__booking">
+                <form class="formBooking" action="">
+                    <h3 id="formBooking__firstName">Бронирование аппартаментов</h3>
+                    <div class="fioEmail">
+                        <div class="bookingText">
+                            <label id="bookingText__textStyle" for="textName">Ведите свое имя:</label>
+                            <p><input id="bookingText__textName"type="text"></p>
+                        </div>
+                        <div class="boocingEmail">
+                            <label id="boocingEmail__textStyle" for="textEmail">Введите свой email:</label>
+                            <p><input id="boocingEmail__textEmail"type="email"></p>
+                         </div>
+                    </div>
+
+                    <div id="calendar">
+                        <div >
+                            <ul id="month">
+                                <li>❮</li>
+                                <li>Июль</li>
+                                <li>❯</li>                              
+                            </ul>
+                        </div> 
+                        <ul id="weekdays">
+                            <li id="dayD">Mo</li>
+                            <li id="dayD">Tu</li>
+                            <li id="dayD">We</li>
+                            <li id="dayD">Th</li>
+                            <li id="dayD">Fr</li>
+                            <li id="dayD2">Sa</li>
+                            <li id="dayD2">Su</li>
+                        </ul>
+                        <ul id="days">
+                            <li id="startGrid">1</li>
+                            <li id="2">2</li>
+                            <li id="dayOff">3</li>
+                            <li id="dayOff">4</li>
+                            <li id="5">5</li>
+                            <li id="6">6</li>
+                            <li id="7">7</li>
+                            <li id="8">8</li>
+                            <li id="9">9</li>
+                            <li id="dayOff">10</li>
+                            <li id="dayOff">11</li>
+                            <li id="12">12</li>
+                            <li id="13">13</li>
+                            <li id="14">14</li>
+                            <li id="15">15</li>
+                            <li id="16">16</li>
+                            <li id="dayOff">17</li>
+                            <li id="dayOff">18</li>
+                            <li id="19">19</li>
+                            <li id="20">20</li>
+                            <li id="21">21</li>
+                            <li id="22">22</li>
+                            <li id="23">23</li>
+                            <li id="dayOff">24</li>
+                            <li id="dayOff">25</li>
+                            <li id="26">26</li>
+                            <li id="27">27</li>
+                            <li id="28">28</li>
+                            <li id="29">29</li>
+                            <li id="30">30</li>
+                            <li id="dayOff">31</li>
+                        </ul>
+                    </div>
+                    <div class="date">
+                        <div class="bookingDate">
+                            <label id="bookingDate__textStyle" for="dateСoming">Дата заезда:</label>
+                            <p><input id="bookingDate__dateСoming" type="date"></p>
+                        </div>
+                        <div class="bookingDate2">
+                            <label id="bookingDate2__textStyle" for="dataExit">Дата отъезда:</label>
+                            <p><input id="bookingDate2__dataExit" type="date"></p>
+                        </div>
+                    </div> 
+                    <div>
+                        <p><select name="" id="formBooking__time">
+                            <option value="hidden disabled selectede">Время заезда</option>
+                            <option value="">10:00</option>
+                            <option value="">12:00</option>
+                            <option value="">14:00</option>
+                        </select></p>
+                    </div>
+                    <button id="formBooking__submit">Забронировать</button>
+                </form>
+            </article>
+            <section class="contentText">
+                <h3 id="contentText__hello">Рады приветствовать Вас <br> на сайте отеля: Renaissance</h3>
+                <h6 id="contentText__txt">Пятизвездочный отель высшей категории Swissotel The Bosphorus Istanbul был удостоен международного сертификата
+                безопасности Safehotels уровня Executive Level. К услугам гостей эксклюзивный бассейн на крыше и
+                превосходный спа-центр. Этот отель с потряса ющим видом на пролив Босфор расположен в Стамбуле. За несколько минут можно
+                дойти до квартала Нишанташи, где находится главный торговый район с магазинами класса-люкс.
+                Выберите даты, чтобы увидеть актуальные цены и предложения.</p>
+                </h6>
+            </section>
+        </main>
+    </div> 
+    <script src="hotel.js"></script> 
+</body>
+</html>
